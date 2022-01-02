@@ -63,3 +63,7 @@ button:hover {/*Hover do botão*/
     border: none;/*Borda nula*/
     outline: none;/*Linha de fora nula*/
 }
+
+#botoes3{
+    width: 150px;
+}

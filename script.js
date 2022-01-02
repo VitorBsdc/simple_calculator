@@ -25,3 +25,9 @@ function calc4() {/*Função 4 divisão*/
     var result4 = valor1 / valor2;/*Função em si*/
     document.querySelector('.result').innerHTML = 'Resultado: ' + result4;/*Imprimir resultado para user*/
 }
+
+function clean(){
+    document.getElementById('input1').value = '';
+    document.getElementById('input2').value = '';
+    document.getElementById('result').innerHTML = '';
+}
